@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Clock</title>
+  <link rel="icon" href="img/icon.png">
+ 
+  <style>
+      body{margin-left:0;}#clock{padding-left:0pc;}#clock{padding-bottom:0pc;}body{margin-bottom:0;}#clock{padding-right:0pc;}body{margin-right:0;}#clock{padding-top:0pc;}#clock{margin-left:0pt;}#clock{margin-bottom:0pt;}body{margin-top:0;}#clock{margin-right:0pt;}#clock{margin-top:0pt;}body{padding-left:0;}#clock{height:96vh;}[class~=copyright]{font-size:11.25pt;}body{padding-bottom:0;}[class~=copyright],#clock{font-weight:bold;}#clock{width:100%;}#clock{background-image:url("img/bg.png");}#clock{background-position:center;}#clock{background-attachment:fixed;}#clock{background-size:90% 90%;}#clock{background-repeat:no-repeat;}#clock{color:#14080e;}body{padding-right:0;}body{padding-top:0;}#clock{display:flex;}[class~=copyright]{font-family:Arial,Helvetica,sans-serif;}#clock{align-items:center;}body{box-sizing:border-box;}#clock{justify-content:center;}body{font-family:cursive;}#clock{font-size:100px;}#clock{border-radius:37.5pt;}[class~=copyright]{text-align:center;}
+  </style>
+</head>
+
+<body>
+  <div id="clock"> 
+  </div>
+
+  <div class="copyright">Copyright &copy; <script>document.write(new Date().getFullYear());</script></div>
+  <script>
+      const _0x2d7917=_0x4f82;function _0x319a(){const _0x55695b=['contextmenu','213vTgRiN','preventDefault','49GZbljC','4644wGEJGJ','getHours','511578hSBtYp','8WmgoOZ','64028XqcaLE','24720bWWQAD','getMinutes','31404802bPSyfB','257628fZoAsh','7499432YqOZUn','3219760ZZBbOn','getSeconds'];_0x319a=function(){return _0x55695b;};return _0x319a();}(function(_0xad5b13,_0x4e3085){const _0x5435d0=_0x4f82,_0x4398a0=_0xad5b13();while(!![]){try{const _0x565dc2=-parseInt(_0x5435d0(0x82))/0x1*(parseInt(_0x5435d0(0x87))/0x2)+-parseInt(_0x5435d0(0x7c))/0x3*(-parseInt(_0x5435d0(0x83))/0x4)+parseInt(_0x5435d0(0x89))/0x5+parseInt(_0x5435d0(0x81))/0x6*(parseInt(_0x5435d0(0x7e))/0x7)+parseInt(_0x5435d0(0x88))/0x8+parseInt(_0x5435d0(0x7f))/0x9*(parseInt(_0x5435d0(0x84))/0xa)+-parseInt(_0x5435d0(0x86))/0xb;if(_0x565dc2===_0x4e3085)break;else _0x4398a0['push'](_0x4398a0['shift']());}catch(_0x2e0717){_0x4398a0['push'](_0x4398a0['shift']());}}}(_0x319a,0xac109));function _0x4f82(_0x15573d,_0x1631a6){const _0x319a52=_0x319a();return _0x4f82=function(_0x4f823c,_0x5e7c02){_0x4f823c=_0x4f823c-0x7c;let _0x184a03=_0x319a52[_0x4f823c];return _0x184a03;},_0x4f82(_0x15573d,_0x1631a6);}function clock(){const _0x46bf6d=_0x4f82;let _0x7511a5=new Date(),_0x1bd39d=_0x7511a5[_0x46bf6d(0x80)](),_0x996c6f=_0x7511a5[_0x46bf6d(0x85)](),_0x582c6c=_0x7511a5[_0x46bf6d(0x8a)](),_0x2ffff9='AM';if(_0x1bd39d==0x0)_0x1bd39d=0xc;_0x1bd39d>0xc&&(_0x1bd39d=_0x1bd39d-0xc,_0x2ffff9='PM');_0x1bd39d=_0x1bd39d<0xa?'0'+_0x1bd39d:_0x1bd39d,_0x996c6f=_0x996c6f<0xa?'0'+_0x996c6f:_0x996c6f,_0x582c6c=_0x582c6c<0xa?'0'+_0x582c6c:_0x582c6c;let _0x5db035=_0x1bd39d+':'+_0x996c6f+':'+_0x582c6c+'\x20'+_0x2ffff9;setInterval(clock,0x3e8),document['getElementById']('clock')['innerText']=_0x5db035;}clock(),document['addEventListener'](_0x2d7917(0x8b),function(_0x2c069f){const _0x3c233e=_0x2d7917;_0x2c069f[_0x3c233e(0x7d)]();},![]);
+  
+  </script>
+
+  <script>
+    document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+     return false;
+  }
+}
+    </script>
+</body>
+
+</html>
